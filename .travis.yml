@@ -1,0 +1,13 @@
+language: ruby
+os:
+  - linux
+  - osx
+osx_image:
+  - xcode7.2
+  - xcode6.4
+rvm:
+  - ruby-head-clang
+  - 2.3.0-clang
+  - 2.2.4-clang
+
+script: rake travis
