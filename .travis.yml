@@ -6,5 +6,7 @@ rvm:
   - ruby-head-clang
   - 2.3.0-clang
   - 2.2.4-clang
+  - 2.2.2-clang
+  - 2.1.1-clang
 
 script: rake travis
